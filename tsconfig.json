@@ -6,9 +6,8 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "outDir": "./dist",
-    "rootDir": "./src"
+    "outDir": "./dist"
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*"], // Adjust the paths according to your structure
   "exclude": ["node_modules"]
 }
