@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 
 app.use(cors({
-  origin: ["http://localhost:3000", "https://appointmentsystem.vercel.app/login"],
+  origin: ["http://localhost:3000", "https://appointmentsystem.vercel.app"],
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true, 
 }));
